@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:9cb02ba6-ee6f-4757-92db-4d1ed309cd41" version="1">
+    <metadata>
+        <timestamp>2021-03-10T14:15:19Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>CycloneDX</vendor>
+                <name>CycloneDX Maven plugin</name>
+                <version>2.1.0</version>
+                <hashes>
+                    <hash alg="MD5">8e88d16f19492a5c3f600a264031532b</hash>
+                    <hash alg="SHA-1">8d9239362e174332caf023a37c74b968bce3214f</hash>
+                    <hash alg="SHA-256">403a7a0c008d2d9d3c76775c4c3c538cf79fc476d164885e70f1d0ce6c89d7df</hash>
+                    <hash alg="SHA-384">d50a1c04a495bf088585e2364b7f9052e4c981b5e0eb6fed6a036c57d8e8042ebaffb4d0c1c53f022cfb3394049c52c7</hash>
+                    <hash alg="SHA-512">0c5b9f044f481b72872f859837f564cb09807d5f791b6c99980ff0e3737ff0185c92056980d7a1e7939b9b585976e4eb7d995f86ab46dce505e498a1816e1b0b</hash>
+                    <hash alg="SHA3-256">da78cd983d8356fd24d359a6d9866511f341557c0b0c9dee8b525ab843dfae27</hash>
+                    <hash alg="SHA3-384">9584e49fa40dcb82dca9d910a4f85dc6bee3d88da5230ddf24bed2eafaf6b6e2aa79faf928a5a3484c8535bac9feb435</hash>
+                    <hash alg="SHA3-512">4ccd2da9d1e621473e86cb47e8e15fc85ebae94ef10e0068f930b5ffb13c99045f9bef348eb8f992b56b21d98ee53f2e7ac4b39061d8bf96a0ca92f3f2ac2bd1</hash>
+                </hashes>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.cysecurity/JavaVulnerableLab@0.0.1-SNAPSHOT" type="library">
+            <group>org.cysecurity</group>
+            <name>JavaVulnerableLab</name>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.cysecurity/JavaVulnerableLab@0.0.1-SNAPSHOT</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/mysql/mysql-connector-java@5.1.26?type=jar" type="library">
+            <publisher>Oracle Corporation</publisher>
+            <group>mysql</group>
+            <name>mysql-connector-java</name>
+            <version>5.1.26</version>
+            <description><![CDATA[MySQL JDBC Type 4 driver]]></description>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">ac10af580fc6d2e87caf9cf495fb622e</hash>
+                <hash alg="SHA-1">f1697bef3639811e56173e70eb2471562e3ac8ef</hash>
+                <hash alg="SHA-256">0618340ec0b5c094e3b61cdb66400d88b54087003e02bd2ba074f87abb254ee2</hash>
+                <hash alg="SHA-384">3f5ab25bd16320f3fa65154bd8ee0183970024c28f57aaa21cb12bb66525224c2ae0c70b50fc6e9a8f407c7873ddf0b1</hash>
+                <hash alg="SHA-512">059d5f6e85656e1789fb3f19c1a63ca5ea00ae4c2014f0fd1eada193a3fac359d3f6b9a9d7bf231550f86f416f89022992563267c38530f0813da516496c811a</hash>
+                <hash alg="SHA3-256">6464b56fe210509dd86efddfd702c7d4a1d99a964cfe30e1032aecaa2bcd6059</hash>
+                <hash alg="SHA3-384">f033b58dbda87379b284900c5bd7f21a17ea445ec437cd68637d349c4dcf57aeed297ff0843faa6fdded8d2b83cc7f59</hash>
+                <hash alg="SHA3-512">3a6b77485cd20ea6e33fc2f31ccc14a8692150dafb12087d55ba9a81467311bc4609a44cf0487cb5280c297471f9698f6de1524f7bd2595b9e5589f3b266f400</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>The GNU General Public License, Version 2</name>
+                    <url>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/mysql/mysql-connector-java@5.1.26?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.oracle.com</url>
+                </reference>
+                <reference type="vcs">
+                    <url>https://github.com/mysql/mysql-connector-j</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.json/json@20090211?type=jar" type="library">
+            <publisher>JSON</publisher>
+            <group>org.json</group>
+            <name>json</name>
+            <version>20090211</version>
+            <description><![CDATA[JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.]]></description>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">333139fffc6c9d4bc3d2495d9613f092</hash>
+                <hash alg="SHA-1">c183aa3a2a6250293808bba12262c8920ce5a51c</hash>
+                <hash alg="SHA-256">055be110a570f9cda3eba8d70a006ff46c77a048bc67868524879211c48b330a</hash>
+                <hash alg="SHA-384">02ff7e65018297d71471efe0958bb6a473b32d537fe0d83edf9dd97f494627ed1af7f809c671737119e1567955683f5e</hash>
+                <hash alg="SHA-512">ea18db6a9b2db4753bbabfde3ebf2159c0bb71dc8ac5f8a7b6ace9666b0b82a04927952db7c9285ace05301bd2cee289d8ba022a4229550de6ba0099659a37d7</hash>
+                <hash alg="SHA3-256">388f86f18d3992eec02f55d101f7017e4c6e7e70d6479a4510cfbff38139f17b</hash>
+                <hash alg="SHA3-384">3dfb3c199a14d04cf83b471b6db410ca745ec7857df740f0ac9c6d1e838297b683ba83493e25a534c40443c800c7e64d</hash>
+                <hash alg="SHA3-512">9d9248e1690c04bb6168eb647d821489cb537c072c8011eafc10ca033c8565beb26f8662c7959ca96bd76bd0f35b7eb9704ab753a15e7110ce81907a2c81ddc3</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>JSON</id>
+                    <url>http://www.json.org/license.html</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.json/json@20090211?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://json.org/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/javax.servlet/jstl@1.2?type=jar" type="library">
+            <group>javax.servlet</group>
+            <name>jstl</name>
+            <version>1.2</version>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">51e15f798e69358cb893e38c50596b9b</hash>
+                <hash alg="SHA-1">74aca283cd4f4b4f3e425f5820cda58f44409547</hash>
+                <hash alg="SHA-256">c6273119354a41522877e663582041012b22f8204fe72bba337ed84c7e649b0a</hash>
+                <hash alg="SHA-384">750771b79ef083a19d20a7b384c166893c9045ebbb9428b641d0bafd8101615652d50b095e3647d2d849fb79b822b109</hash>
+                <hash alg="SHA-512">fb6fe33922631bba21b606cb5d53c4457071e695ec5632205185281e7db3e2d63d95248b43b9c7fb2cb5042d14a267b87d2c5da742c989174c3526dccf23aeec</hash>
+                <hash alg="SHA3-256">6f412b6fb48e4eafde516fc2803e0f40b09e2b6b090a798094430c0a126da654</hash>
+                <hash alg="SHA3-384">98a520ca2dfd326e210fee9dac631e6fc21315ae6f8eb93c1a29bf4cd7b7a5fe880aaeafb73d14d5e6638ea72ead222c</hash>
+                <hash alg="SHA3-512">d67e63b347426c3e547e5fa6d6d8285dc5b2f9ba212355d1d909ffae336f1475b18133e30ee0bf84acaac9f8007c52f1c94fb2cda1e1e339ba5db5715f981927</hash>
+            </hashes>
+            <purl>pkg:maven/javax.servlet/jstl@1.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.hibernate/hibernate-core@4.0.1.Final?type=jar" type="library">
+            <publisher>Hibernate.org</publisher>
+            <group>org.hibernate</group>
+            <name>hibernate-core</name>
+            <version>4.0.1.Final</version>
+            <description><![CDATA[A module of the Hibernate Core project]]></description>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">4918faa8958a502fd25eb4dba99803f9</hash>
+                <hash alg="SHA-1">9e1b7e06d8148394632bcaeb7a5f68748c69dce4</hash>
+                <hash alg="SHA-256">a7afc1a62ab04d47da05216a80e954ee50bad694ce9f5e8dc77932157e06683e</hash>
+                <hash alg="SHA-384">1b62acc67e6598be059a8793059cd4de0415bd1c30e458489c3a472cce9c2a60e5b8e208257d91db76c4677c0541251f</hash>
+                <hash alg="SHA-512">f34ad11c08c442de600c2fb18676ce9e073ecf23fa0dc931e120ca68ba156f45889dbc13fc2a4b497b25e4d25d4ecaf356273c99b8882778c063e3adc72bedac</hash>
+                <hash alg="SHA3-256">2a763fc432e04e36c0503da90716c850c6db1aa375e3bf12f53e0330bf31d5d6</hash>
+                <hash alg="SHA3-384">e7c22dda96140ad35860149e36370767e02bbda7eb0580a247d0f43089f3218b49847047328ebf2db05a71461e2db16e</hash>
+                <hash alg="SHA3-512">0419abc98982f3f22612c6b74305dd69a7149f08121c91bbee76e70a4144f8a286abdfa2d4f4f93e2e2dab3649bb6ff4e7a8334b0b7d2e41aea881e9cbb3b961</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>GNU Lesser General Public License</name>
+                    <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.hibernate/hibernate-core@4.0.1.Final?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://hibernate.org</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://opensource.atlassian.com/projects/hibernate/browse/HHH</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://github.com/hibernate/hibernate-core</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/commons-collections/commons-collections@3.2.1?type=jar" type="library">
+            <publisher>The Apache Software Foundation</publisher>
+            <group>commons-collections</group>
+            <name>commons-collections</name>
+            <version>3.2.1</version>
+            <description><![CDATA[Types that extend and augment the Java Collections Framework.]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">13bc641afd7fd95e09b260f69c1e4c91</hash>
+                <hash alg="SHA-1">761ea405b9b37ced573d2df0d1e3a4e0f9edc668</hash>
+                <hash alg="SHA-256">87363a4c94eaabeefd8b930cb059f66b64c9f7d632862f23de3012da7660047b</hash>
+                <hash alg="SHA-384">e5beca0365f4158cdab72a904eef2abcc88f5604bc52fce08b3439a5f1bef45bd64d715d733e624b58056f8d1c4707c3</hash>
+                <hash alg="SHA-512">8d0aa0e4e328c2e391d4d972f361a19ff085f508cb0478f5967280953abd3520ee92cc1d19b21cb4e29e4a7bc557487ddbaee9807b751824241269367b9e92cb</hash>
+                <hash alg="SHA3-256">536ed1f3dd481b746e571caaee9b1e19c7a462e1c633dc139583371a179ac852</hash>
+                <hash alg="SHA3-384">d67a56ba126fdc5151037460a4c1a1a1ddc5baed26cbece512ed9d125e473f4a1bcc424bcbde0196a2798d417067e09e</hash>
+                <hash alg="SHA3-512">e80564b2b7a9771cffb50d45e06a8ca94aa4d8c992c63a0191f5a2a20d287d9f6cbb14571144b66a62adab0c5763a681a6d1c2b95d4a0a5e84b5ed80565424b6</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/commons-collections/commons-collections@3.2.1?type=jar</purl>
+            <externalReferences>
+                <reference type="issue-tracker">
+                    <url>http://issues.apache.org/jira/browse/COLLECTIONS</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://svn.apache.org/viewvc/commons/proper/collections/trunk</url>
+                </reference>
+                <reference type="build-system">
+                    <url>http://vmbuild.apache.org/continuum/</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://mail-archives.apache.org/mod_mbox/commons-user/</url>
+                </reference>
+                <reference type="website">
+                    <url>http://www.apache.org/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/antlr/antlr@2.7.7?type=jar" type="library">
+            <group>antlr</group>
+            <name>antlr</name>
+            <version>2.7.7</version>
+            <description><![CDATA[A framework for constructing recognizers, compilers, and translators from grammatical descriptions containing Java, C#, C++, or Python actions.]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">f8f1352c52a4c6a500b597596501fc64</hash>
+                <hash alg="SHA-1">83cd2cd674a217ade95a4bb83a8a14f351f48bd0</hash>
+                <hash alg="SHA-256">88fbda4b912596b9f56e8e12e580cc954bacfb51776ecfddd3e18fc1cf56dc4c</hash>
+                <hash alg="SHA-384">2e811e531ce30a2a905d093a00de596cf04406413b60422db8252b46125cadf07b71459cf6ac6da575ec030a9bf05e57</hash>
+                <hash alg="SHA-512">311c3115f9f6651d1711c52d1739e25a70f25456cacb9a2cdde7627498c30b13d721133cc75b39462ad18812a82472ef1b3b9d64fab5abb0377c12bf82043a74</hash>
+                <hash alg="SHA3-256">babce5c8beb1d5907a7ed6354589e991da7d8d5cbd86c479abfa1e1dfc4d2eb8</hash>
+                <hash alg="SHA3-384">bdf019332ae8714ef6a3904bb42bb08c1fe4feacf5e6137274884b0377d4e5b5f7aa9fe8e1ef5ca9b3e15f12320fdb67</hash>
+                <hash alg="SHA3-512">3a8ce565280a157dd6e08fb68c317a4c28616099c56bc4992c38cf74a10a54a89e18e7c45190ce8511360798a87adc92f432382f9d9bdde0d56664b50044b517</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD License</name>
+                    <url>http://www.antlr.org/license.html</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/antlr/antlr@2.7.7?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec@1.0.0.Final?type=jar" type="library">
+            <publisher>JBoss, a division of Red Hat, Inc.</publisher>
+            <group>org.jboss.spec.javax.transaction</group>
+            <name>jboss-transaction-api_1.1_spec</name>
+            <version>1.0.0.Final</version>
+            <description><![CDATA[The Java Transaction 1.1 API classes]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">1df800392c432e449d9a19ed7a8f54a8</hash>
+                <hash alg="SHA-1">2ab6236535e085d86f37fd97ddfdd35c88c1a419</hash>
+                <hash alg="SHA-256">ac2126dfbcd8d398e4b64cd0fdca21d2d64ff46e59326004de2d636b37036c35</hash>
+                <hash alg="SHA-384">27eac6c0aaef370a029edb7b5622d933c0a1958ef0ed037e71ce90c3ce4e2401af73984aea840e0157fc8a681a213c8c</hash>
+                <hash alg="SHA-512">a0f9da4a2b13b3de31f3aba124a81d3cc6ba19cd243759a396f507e7f4e8ed18a0cb874ee3721555386a74d5f6bd4213bd846dbb21dde420d7e1e995d0bd2f75</hash>
+                <hash alg="SHA3-256">5d53874fa3436353a2035d1a8a735948314b8a190acefaab9a2a3a1802eda96a</hash>
+                <hash alg="SHA3-384">38cc505504aa425f9075df492006cddbae2950bd4633d9b5402b2a9ffe84b357a66a4115912e32964675381458c6e606</hash>
+                <hash alg="SHA3-512">3fd5e3c6a4650ad4dbd67cc5f8b4f5f5f3c36e17650de3bc632d031947faf2d0042e70df5184dbabc4d351a53c0aa6f6576ca9d56ea7b40dfe8ef23d934392be</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>lgpl</name>
+                    <url>http://repository.jboss.org/licenses/lgpl-2.1.txt</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec@1.0.0.Final?type=jar</purl>
+            <externalReferences>
+                <reference type="vcs">
+                    <url>http://fisheye.jboss.org/browse/JBossAS/projects/specs/tags/jboss-transaction-api_1.1_spec-1.0.0.Final</url>
+                </reference>
+                <reference type="website">
+                    <url>http://www.jboss.org</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://jira.jboss.org/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/dom4j/dom4j@1.6.1?type=jar" type="library">
+            <publisher>MetaStuff Ltd.</publisher>
+            <group>dom4j</group>
+            <name>dom4j</name>
+            <version>1.6.1</version>
+            <description><![CDATA[dom4j: the flexible XML framework for Java]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">4d8f51d3fe3900efc6e395be48030d6d</hash>
+                <hash alg="SHA-1">5d3ccc056b6f056dbf0dddfdf43894b9065a8f94</hash>
+                <hash alg="SHA-256">593552ffea3c5823c6602478b5002a7c525fd904a3c44f1abe4065c22edfac73</hash>
+                <hash alg="SHA-384">45ce7646d803623e8c88f2d5d0ede16d8006a9fd8dedb01290eeee9376a77cce005073d490dda205766457fe73e22f10</hash>
+                <hash alg="SHA-512">e3737ef4a1551e46410916fcda298a629b2681d7469ceaafffd668e6055d9c0e795bc9d12ea3300d218981d5aa5b2f38bb2e641211997c962e6086068f62ad67</hash>
+                <hash alg="SHA3-256">cb21c91f1087d04fd340a60aff763b918b63f5ac6256e1ba9347273df809ebe3</hash>
+                <hash alg="SHA3-384">82373f841efa05c19da55b43e8bbea78f28bdd3b86576128a0598a0c1371fdd77e49177262f229265e3f430d8037d975</hash>
+                <hash alg="SHA3-512">a17ede6fb1c0d734a680dbca5cdd0cdacac963ab198b741491ce2b591a170a05621d2cb875d3fabb388fb3527d3f1f1b0f7b9170da0b9a1a20f199c46b8cb0db</hash>
+            </hashes>
+            <purl>pkg:maven/dom4j/dom4j@1.6.1?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://sourceforge.net/projects/dom4j</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://sourceforge.net/tracker/?group_id=16035</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://www.mail-archive.com/dom4j-user%40lists.sourceforge.net/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/dom4j/dom4j/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/xml-apis/xml-apis@1.0.b2?type=jar" type="library">
+            <publisher>Apache Software Foundation</publisher>
+            <group>xml-apis</group>
+            <name>xml-apis</name>
+            <version>1.0.b2</version>
+            <description><![CDATA[xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP interfaces for use in other xml-based projects. Our hope is that we can standardize on both a common version and packaging scheme for these critical XML standards interfaces to make the lives of both our developers and users easier. The External Components portion of xml-commons contains interfaces that are defined by external standards organizations. For DOM, that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for JAXP it's Sun.]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">458715c0f7646a56b1c6ad3138098beb</hash>
+                <hash alg="SHA-1">3136ca936f64c9d68529f048c2618bd356bf85c9</hash>
+                <hash alg="SHA-256">8232f3482c346d843e5e3fb361055771c1acc105b6d8a189eb9018c55948cf9f</hash>
+                <hash alg="SHA-384">159031ff0cc48506d2c3e00a67e7ce71258f448bf688f35938c5928e63ae0b2c9bc04f05c2d1a7da7a63509c34053795</hash>
+                <hash alg="SHA-512">daee51f0f564979c941b41e27a7129617ce9d791a4e1c4b618a29ae33ec9c78201ac516685cadfd073fda250d50eb2c0d651474103e7c4577e4bfa7d5f2052a1</hash>
+                <hash alg="SHA3-256">409a8b4b81661ba4bf99f28014dea0eee23c144097fb128690cb31fe2e0d7ca2</hash>
+                <hash alg="SHA3-384">31a3ce19f7696f2e647164b434080a8ddc600102c4cc7028099ba01770e357fa89c140134da58900865680333f5e4b2d</hash>
+                <hash alg="SHA3-512">64e6d427b0fe24643905f773e08c10ccff0cd35173241792122d364f16d7cc78366cce15d7917e58be6a69372544f57267d8eb748679edb067af1698869137e6</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/xml-apis/xml-apis@1.0.b2?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.apache.org/</url>
+                </reference>
+                <reference type="distribution">
+                    <url>http://www.apache.org/dist/xml/commons/binaries/xml-commons-1.0.b2.tar.gz</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://issues.apache.org/bugzilla/</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://mail-archives.apache.org/mod_mbox/xml-commons-dev/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-1_0_b2</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.0-api@1.0.1.Final?type=jar" type="library">
+            <publisher>Hibernate.org</publisher>
+            <group>org.hibernate.javax.persistence</group>
+            <name>hibernate-jpa-2.0-api</name>
+            <version>1.0.1.Final</version>
+            <description><![CDATA[Hibernate definition of the Java Persistence 2.0 (JSR 317) API.]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">d7e7d8f60fc44a127ba702d43e71abec</hash>
+                <hash alg="SHA-1">3306a165afa81938fc3d8a0948e891de9f6b192b</hash>
+                <hash alg="SHA-256">bacfb6460317d421aa2906d9e63c293b69dc1a5dac480d0f6416df50796a4bb3</hash>
+                <hash alg="SHA-384">694ce5dc9106fb1d0e73101c597162e43f2a06455b9284c3124db20e3e158fffb86dd7b09078ad556b2aea0accc6b52c</hash>
+                <hash alg="SHA-512">6b5cadcc300d565985428963b85411f34f56158610a4439d3b6b21b40e95b19e10c9534337096674b5dda59f4a417b1b437e9d74c983c79912be0c2bc90e61a5</hash>
+                <hash alg="SHA3-256">7f7ff7965edeebb3cba8d52fdb3a7c2dec529d1f7227ec8259e163523f4897dd</hash>
+                <hash alg="SHA3-384">50c4896aeaeaef89eabdb8afb1aad2f67ef54040387bf85c8a4aed757c5f29884b86d070ee133ce30dcd7fd333f4ae23</hash>
+                <hash alg="SHA3-512">5252b283f9f9b706a328d6d022358e72dd8e8926efdd210b593e7adbf8f013dbdd44ce05a43da3fd1c3631f9f9e818cd73f11f9d71505558a45e4bcf9761d8c2</hash>
+            </hashes>
+            <purl>pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.0-api@1.0.1.Final?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://hibernate.org</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://fisheye.jboss.org/browse/Hibernate/jpa-api/tags/hibernate-jpa-2.0-api-1.0.1.Final</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.jboss.logging/jboss-logging@3.1.0.CR2?type=jar" type="library">
+            <publisher>JBoss, a division of Red Hat, Inc.</publisher>
+            <group>org.jboss.logging</group>
+            <name>jboss-logging</name>
+            <version>3.1.0.CR2</version>
+            <description><![CDATA[The JBoss Logging Framework]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">319dbab9b6ec1aea0bf790a55133386c</hash>
+                <hash alg="SHA-1">28725380c07f917ace4e511db21cc45e9ae5a72b</hash>
+                <hash alg="SHA-256">5bfc8daf909d332f622cb0f42e425ec7cdff55a3c2f4d855e2cd82566b0e776d</hash>
+                <hash alg="SHA-384">d77aa43041252cef5c26ac33dd5bdb2a318ab6462aa7743585727f1d3933c4c5aff356a1f6a2e8824c6746c7388913ce</hash>
+                <hash alg="SHA-512">aaa9cbf63b273160e72bae342b8bb30611d21c5dcd21743f4fb42544c013dc6cc7e7e5e2c4ee2046b9d8742ac5f4df6336983373efcf6de239637a7f8c24cbc7</hash>
+                <hash alg="SHA3-256">31d1add22e7ea22bb8013ac77a90cc2c1ce4de111fa6caf9523a67cc0e9ce573</hash>
+                <hash alg="SHA3-384">2ee9ca792a1202d159f24fd2699a4cba68d313637d92c5fc594f273785a44d924076c023e6dd909647ce2abc2ddeb7bd</hash>
+                <hash alg="SHA3-512">aca575601e513361a048845a3752ceabffb64f572109642894f61a9398047960392122071394c84aa8076ec5e6d5ed3e721eba476d7af033202e4a4c5cfccb90</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>GNU Lesser General Public License, version 2.1</name>
+                    <url>http://www.gnu.org/licenses/lgpl-2.1.txt</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.jboss.logging/jboss-logging@3.1.0.CR2?type=jar</purl>
+            <externalReferences>
+                <reference type="vcs">
+                    <url>https://github.com/jboss-logging/jboss-logging</url>
+                </reference>
+                <reference type="website">
+                    <url>http://www.jboss.org</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://issues.jboss.org/</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://lists.jboss.org/pipermail/jboss-user/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.javassist/javassist@3.15.0-GA?type=jar" type="library">
+            <group>org.javassist</group>
+            <name>javassist</name>
+            <version>3.15.0-GA</version>
+            <description><![CDATA[Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">2fcae06eedcddd3e5b0fe32416f99c1c</hash>
+                <hash alg="SHA-1">79907309ca4bb4e5e51d4086cc4179b2611358d7</hash>
+                <hash alg="SHA-256">eeec97d5987dc8d525285fab888bab4c68a2ef1412335f73aba2b804f88a6cb5</hash>
+                <hash alg="SHA-384">3ca0b14991637f3224b194c3d00ea6b6b44b4b75c34ef75f218538b50ef0168ef10d56d2a289220ed40a4ef95698f0e8</hash>
+                <hash alg="SHA-512">cf9907ef316ee01a61f7736b20c5549b29785b7c801b1f8db693b9a7d5478c9037719369534cc2b36c16457ae28c3f976e06c6137ba9e6b708808af0bed7baea</hash>
+                <hash alg="SHA3-256">ca0101dab33953b6ebdd01bbc0df0c2c3dce6d5bbac6930f15ffcb4f319f24ae</hash>
+                <hash alg="SHA3-384">66e1fb6b791b9381ec2217a4c35626a718f197e579dc951e5df06314bbf41d011f3bf9491f60b36165cdd737e62acbac</hash>
+                <hash alg="SHA3-512">b8aa9cb1e5da3edec9db36580d003a402e3c2a5ca3830dfb8cc59df099db9470aa073b0a8355e29aeef25afedcde1e160b7564bc59d2ff1153af3706cb7ccb4c</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MPL-1.1</id>
+                </license>
+                <license>
+                    <id>LGPL-2.1-only</id>
+                </license>
+                <license>
+                    <id>Apache-2.0</id>
+                    <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.javassist/javassist@3.15.0-GA?type=jar</purl>
+            <externalReferences>
+                <reference type="distribution">
+                    <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://jira.jboss.org/jira/browse/JASSIST/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://fisheye.jboss.org/browse/javassist/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.hibernate.common/hibernate-commons-annotations@4.0.1.Final?type=jar" type="library">
+            <publisher>Hibernate.org</publisher>
+            <group>org.hibernate.common</group>
+            <name>hibernate-commons-annotations</name>
+            <version>4.0.1.Final</version>
+            <description><![CDATA[Common reflection code used in support of annotation processing]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">2f183e60ad3d10e654bc3c276445033a</hash>
+                <hash alg="SHA-1">78bcf608d997d0529be2f4f781fdc89e801c9e88</hash>
+                <hash alg="SHA-256">cea2405cf0f5427e226cd4957973e8b3d83091dea2f6383a7168192c790ecd06</hash>
+                <hash alg="SHA-384">7dd13c33925c096c722a882d8b4f75a812d51fa11ef5212d19618c703920e4a162bd06662451f60d9ff33fef13934e72</hash>
+                <hash alg="SHA-512">c2d5cc7fc72f5da115294806294d65ce2b57a74c6e136ce3c8f78202a0fe00134b8322de1dc96c9c9db445ac2cd37bda007391eb60b0d0ffbb5e1c3d363a8b21</hash>
+                <hash alg="SHA3-256">171d4179f1a9ab13b111b5c186510070e856650ea9b9cdb14da4ef68dc065de7</hash>
+                <hash alg="SHA3-384">fd9f6dae55f929b4e8b58504f7c34a857bc7fabb19169e090698bc5b05f30f288f2b3bfdbc6669203a37289d8ad0de45</hash>
+                <hash alg="SHA3-512">33aa61a247a2301cdeda5139299d763ed50a21fc9745a8aa02b14f840ce6ffb04807c5254fc219dda644e18bc664747d27e231eb3d668b944d1027bbf0991e05</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>GNU LESSER GENERAL PUBLIC LICENSE</name>
+                    <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.hibernate.common/hibernate-commons-annotations@4.0.1.Final?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://hibernate.org</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://opensource.atlassian.com/projects/hibernate/browse/HCANN</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://lists.jboss.org/pipermail/hibernate-dev/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://github.com/hibernate/hibernate-commons-annotations</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/javax.servlet/servlet-api@2.3?type=jar" type="library">
+            <group>javax.servlet</group>
+            <name>servlet-api</name>
+            <version>2.3</version>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">c097f777c6fd453277c6891b3bb4dc09</hash>
+                <hash alg="SHA-1">0137a24e9f62973f01f16dd23fc1b5a9964fd9ef</hash>
+                <hash alg="SHA-256">8478b902d0815ed066db860fb14cc5d404548d4b6348ab930b46270fcddeba68</hash>
+                <hash alg="SHA-384">835f37b6a29eb1abdf9e4a73b97fae35d06956804d6c50de155d9619d6220b259cd68b2db00d42a4484ac5cdb606c977</hash>
+                <hash alg="SHA-512">e07c598d468a9e268dc803bfd2fdfa7cafb35d271407b85297b35fc17017b85bafb0b1652434dcffb6777b4e39979d0cd9204bb150efa5e489146b51722af1fe</hash>
+                <hash alg="SHA3-256">66654f68ce2cfa8e2819a11106237ba4a10be4889b24533bc1a8de3390ef86c1</hash>
+                <hash alg="SHA3-384">39c43597bfa2b1245691b5affa100f269ed87feb302e74002a78606e41b2fbd2397f7b4fd57f2466cfecba90f2506be1</hash>
+                <hash alg="SHA3-512">6d020bf96c57b38b80464c0633e43780ee4e03ee429d10cfa3029adb79483b9b649cc9f8a39e9dc3ae4c2c5391655bb17b1630940f8df77cce7ba717a8fb839a</hash>
+            </hashes>
+            <purl>pkg:maven/javax.servlet/servlet-api@2.3?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/mysql/mysql-connector-java@5.1.26?type=jar"/>
+        <dependency ref="pkg:maven/org.json/json@20090211?type=jar"/>
+        <dependency ref="pkg:maven/javax.servlet/jstl@1.2?type=jar"/>
+        <dependency ref="pkg:maven/org.hibernate/hibernate-core@4.0.1.Final?type=jar">
+            <dependency ref="pkg:maven/commons-collections/commons-collections@3.2.1?type=jar"/>
+            <dependency ref="pkg:maven/antlr/antlr@2.7.7?type=jar"/>
+            <dependency ref="pkg:maven/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec@1.0.0.Final?type=jar"/>
+            <dependency ref="pkg:maven/dom4j/dom4j@1.6.1?type=jar"/>
+            <dependency ref="pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.0-api@1.0.1.Final?type=jar"/>
+            <dependency ref="pkg:maven/org.jboss.logging/jboss-logging@3.1.0.CR2?type=jar"/>
+            <dependency ref="pkg:maven/org.javassist/javassist@3.15.0-GA?type=jar"/>
+            <dependency ref="pkg:maven/org.hibernate.common/hibernate-commons-annotations@4.0.1.Final?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/commons-collections/commons-collections@3.2.1?type=jar"/>
+        <dependency ref="pkg:maven/antlr/antlr@2.7.7?type=jar"/>
+        <dependency ref="pkg:maven/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec@1.0.0.Final?type=jar"/>
+        <dependency ref="pkg:maven/dom4j/dom4j@1.6.1?type=jar">
+            <dependency ref="pkg:maven/xml-apis/xml-apis@1.0.b2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/xml-apis/xml-apis@1.0.b2?type=jar"/>
+        <dependency ref="pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.0-api@1.0.1.Final?type=jar"/>
+        <dependency ref="pkg:maven/org.jboss.logging/jboss-logging@3.1.0.CR2?type=jar"/>
+        <dependency ref="pkg:maven/org.javassist/javassist@3.15.0-GA?type=jar"/>
+        <dependency ref="pkg:maven/org.hibernate.common/hibernate-commons-annotations@4.0.1.Final?type=jar"/>
+        <dependency ref="pkg:maven/javax.servlet/servlet-api@2.3?type=jar"/>
+    </dependencies>
+</bom>
